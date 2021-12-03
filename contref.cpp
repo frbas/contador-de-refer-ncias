@@ -54,11 +54,9 @@ void *atrib(Mem *vet, int vetTam, void *ori, void *dest){
 
 void imprimeMem(Mem *vet, int vetTam){
     int i;
-    printf("Estado da memória\n");
+    printf("Estado da memÃ³ria\n");
     for(i = 0; i < vetTam; ++i){
-        //if(vet[i].cont != 0){
-            printf("& - %p, Contador - %d\n", vet[i].endereco, vet[i].cont);
-        //}
+        printf("& - %p, Contador - %d\n", vet[i].endereco, vet[i].cont);
     }
 }
 
